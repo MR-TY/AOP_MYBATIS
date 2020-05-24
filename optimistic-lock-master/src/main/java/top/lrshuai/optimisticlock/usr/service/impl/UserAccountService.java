@@ -10,6 +10,7 @@ import top.lrshuai.optimisticlock.common.ApiException;
 import top.lrshuai.optimisticlock.common.ApiResultEnum;
 import top.lrshuai.optimisticlock.common.Consts;
 import top.lrshuai.optimisticlock.common.Result;
+import top.lrshuai.optimisticlock.config.annotation.FieldNotNull;
 import top.lrshuai.optimisticlock.usr.dto.TransferDTO;
 import top.lrshuai.optimisticlock.usr.entity.UserAccount;
 import top.lrshuai.optimisticlock.usr.mapper.UserAccountMapper;

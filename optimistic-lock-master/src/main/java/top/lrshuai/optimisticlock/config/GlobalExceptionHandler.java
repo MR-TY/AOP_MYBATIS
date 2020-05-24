@@ -17,6 +17,7 @@ import java.io.IOException;
  * @author rstyro
  * @since 2019-03-12
  */
+/*
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
@@ -72,3 +73,4 @@ public class GlobalExceptionHandler {
     }
 
 }
+*/
