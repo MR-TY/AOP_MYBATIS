@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c55f79-626b-4aea-99f5-74bc87cf5722" name="Default" comment="">
+    <list default="true" id="59c55f79-626b-4aea-99f5-74bc87cf5722" name="Default" comment="// 增加线程池关闭">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/mall/PhoneGrapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/mall/PhoneGrapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/config/annotation/FieldNotNull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/lrshuai/optimisticlock/config/ws/filter/FieldNotNullDynamicFeature.java" beforeDir="false" />
     </list>
     <list id="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" name="notCommit" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -44,59 +46,27 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/.idea/workspace.xml">
       <ranges>
-        <range start1="3" end1="7" start2="3" end2="12" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="26" end1="140" start2="31" end2="31" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="148" end1="160" start2="39" end2="42" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="161" end1="171" start2="43" end2="101" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="172" end1="511" start2="102" end2="108" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="513" end1="514" start2="110" end2="114" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="517" end1="520" start2="117" end2="121" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="526" end1="624" start2="127" end2="128" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="631" end1="631" start2="135" end2="149" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="633" end1="637" start2="151" end2="151" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="638" end1="646" start2="152" end2="155" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="648" end1="650" start2="157" end2="157" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="655" end1="660" start2="162" end2="162" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="662" end1="663" start2="164" end2="164" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="664" end1="672" start2="165" end2="168" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="674" end1="676" start2="170" end2="170" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="681" end1="688" start2="175" end2="175" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="690" end1="691" start2="177" end2="177" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="692" end1="702" start2="178" end2="178" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="704" end1="708" start2="180" end2="183" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="709" end1="727" start2="184" end2="200" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="728" end1="762" start2="201" end2="217" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="763" end1="776" start2="218" end2="234" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="778" end1="785" start2="236" end2="236" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="786" end1="788" start2="237" end2="237" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="789" end1="797" start2="238" end2="241" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="798" end1="807" start2="242" end2="250" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="809" end1="810" start2="252" end2="252" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="812" end1="814" start2="254" end2="254" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="815" end1="837" start2="255" end2="255" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="838" end1="840" start2="256" end2="256" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="841" end1="850" start2="257" end2="258" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="857" end1="877" start2="265" end2="267" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="879" end1="881" start2="269" end2="270" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="882" end1="884" start2="271" end2="284" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="885" end1="887" start2="285" end2="285" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="888" end1="898" start2="286" end2="286" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="900" end1="901" start2="288" end2="291" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="902" end1="917" start2="292" end2="300" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="918" end1="922" start2="301" end2="307" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="923" end1="924" start2="308" end2="309" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="925" end1="930" start2="310" end2="316" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="932" end1="936" start2="318" end2="323" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="939" end1="941" start2="326" end2="328" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="945" end1="945" start2="332" end2="333" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="950" end1="950" start2="338" end2="346" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="951" end1="951" start2="347" end2="348" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="985" end1="987" start2="382" end2="395" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="988" end1="1024" start2="396" end2="399" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="1025" end1="1030" start2="400" end2="437" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
-        <range start1="1037" end1="1038" start2="444" end2="444" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
-        <range start1="1040" end1="1041" start2="446" end2="446" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
-        <range start1="1042" end1="1376" start2="447" end2="447" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
+        <range start1="3" end1="4" start2="3" end2="4" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="5" end1="6" start2="5" end2="8" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="46" end1="99" start2="48" end2="69" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="311" end1="311" start2="281" end2="282" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="315" end1="316" start2="286" end2="286" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="338" end1="339" start2="308" end2="310" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="347" end1="348" start2="318" end2="326" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="390" end1="391" start2="368" end2="371" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="398" end1="399" start2="378" end2="380" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="405" end1="406" start2="386" end2="387" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="408" end1="410" start2="389" end2="391" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="412" end1="414" start2="393" end2="399" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="416" end1="418" start2="401" end2="403" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="420" end1="422" start2="405" end2="407" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="424" end1="425" start2="409" end2="410" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="429" end1="430" start2="414" end2="415" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="432" end1="434" start2="417" end2="419" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="436" end1="437" start2="421" end2="422" changelist="59c55f79-626b-4aea-99f5-74bc87cf5722" />
+        <range start1="444" end1="445" start2="429" end2="429" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
+        <range start1="447" end1="448" start2="431" end2="431" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
+        <range start1="449" end1="783" start2="432" end2="432" changelist="cb27d3e2-10b9-4caa-8c8f-f1642c1fb291" />
       </ranges>
     </file>
   </component>
@@ -309,11 +279,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.PhoneGrapTest" />
       <item itemvalue="JUnit.OptimisticLockApplicationTests.contextLoads" />
       <item itemvalue="JUnit.OptimisticLockApplicationTests.test" />
       <item itemvalue="JUnit.OptimisticLockApplicationTests.testInsert" />
       <item itemvalue="Spring Boot.OptimisticLockApplication" />
-      <item itemvalue="Application.PhoneGrapTest" />
     </list>
     <recent_temporary>
       <list>
@@ -336,7 +306,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588909803851</updated>
       <workItem from="1588909806572" duration="11031000" />
-      <workItem from="1589782835761" duration="2926000" />
+      <workItem from="1589782835761" duration="3951000" />
+      <workItem from="1590395960740" duration="1429000" />
     </task>
     <task id="LOCAL-00001" summary="// 增加线程池秒杀任务">
       <created>1589789673007</created>
@@ -345,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589789673007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="// 增加线程池关闭">
+      <created>1589790374684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589790374684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -388,7 +366,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -396,45 +376,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="// 增加线程池秒杀任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="// 增加线程池秒杀任务" />
+    <MESSAGE value="// 增加线程池关闭" />
+    <option name="LAST_COMMIT_MESSAGE" value="// 增加线程池关闭" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1589789060058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589789060058" />
-    <state x="490" y="112" key="CommitChangelistDialog2" timestamp="1589789670809">
+    <state x="490" y="112" key="CommitChangelistDialog2" timestamp="1589790454438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589789670809" />
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1589789563167">
+    <state x="490" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790454438" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1589790384630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589789563167" />
-    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1589789563166">
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589790384630" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1589872012735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589789563166" />
-    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1589789563166">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589872012735" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1589872012735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589789563166" />
-    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1589789563166">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589872012735" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1589872012735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589789563166" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589872012735" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1589872012735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589872012735" />
     <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1589782951761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589782951761" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589789679295">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589790459538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589789679295" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589789629028">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790459538" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590396671221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589789629028" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590396671221" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
